@@ -38,18 +38,18 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       school: "Portland State University",
-      degree: "Master's and Bachelors in Mechanical Engineering",
-      start: "2007",
-      end: "2010",
+      degree: "MS and BS in Mechanical Engineering",
+      start: "2003",
+      end: "2011",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
+      company: "Black Diamond Equipment",
+      link: "https://blackdiamondequipment.com/",
       badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
+      title: "Senior Design Engineer,
+      start: "2011",
       end: null,
       description: (
         <>
