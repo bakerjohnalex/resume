@@ -31,11 +31,13 @@ export interface ResumeData {
   work: Array<{
     company: string;
     link: string;
-    badges: string[];
-    title: string;
-    start: string;
-    end: string | null;
-    description: string | React.ReactNode;
+    roles: Array<{
+      badges: string[];
+      title: string;
+      start: string;
+      end: string | null;
+      description: string | React.ReactNode;
+    }>;
   }>;
   skills: string[];
   projects: Array<{
@@ -68,14 +70,18 @@ export interface GraphQLEducation {
   end: string;
 }
 
-export interface GraphQLWork {
-  company: string;
-  link: string;
+export interface GraphQLWorkRole {
   badges: string[];
   title: string;
   start: string;
   end: string;
   description: string;
+}
+
+export interface GraphQLWork {
+  company: string;
+  link: string;
+  roles: GraphQLWorkRole[];
 }
 
 export interface GraphQLLink {
@@ -139,11 +145,13 @@ export function resumeDataToGraphQL(data: ResumeData): GraphQLMe {
     work: data.work.map((job) => ({
       company: job.company,
       link: job.link,
-      badges: job.badges,
-      title: job.title,
-      start: job.start,
-      end: job.end || "Present",
-      description: reactToString(job.description),
+      roles: job.roles.map((role) => ({
+        badges: role.badges,
+        title: role.title,
+        start: role.start,
+        end: role.end || "Present",
+        description: reactToString(role.description),
+      })),
     })),
     skills: data.skills,
     projects: data.projects.map((project) => ({
