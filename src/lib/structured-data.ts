@@ -33,19 +33,21 @@ export function generatePersonStructuredData() {
       "@type": "EducationalOrganization",
       name: edu.school,
     })),
-    hasOccupation: RESUME_DATA.work.map((job) => ({
-      "@type": "Occupation",
-      name: job.title,
-      occupationLocation: {
-        "@type": "Place",
-        name: RESUME_DATA.location,
-      },
-      occupationalCategory: "Software Engineering",
-      estimatedSalary: {
-        "@type": "MonetaryAmountDistribution",
-        name: "Professional software engineer",
-      },
-    })),
+    hasOccupation: RESUME_DATA.work.flatMap((job) =>
+      job.roles.map((role) => ({
+        "@type": "Occupation",
+        name: role.title,
+        occupationLocation: {
+          "@type": "Place",
+          name: RESUME_DATA.location,
+        },
+        occupationalCategory: "Software Engineering",
+        estimatedSalary: {
+          "@type": "MonetaryAmountDistribution",
+          name: "Professional software engineer",
+        },
+      })),
+    ),
     knowsAbout: RESUME_DATA.skills,
   };
 }
