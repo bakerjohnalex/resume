@@ -12,7 +12,7 @@ export const RESUME_DATA: ResumeData = {
       that look amazing. 
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "/me.jpg",
   personalWebsiteUrl: "https://google.com",
   contact: {
     email: "bakerjohnalex@gmail.com",
