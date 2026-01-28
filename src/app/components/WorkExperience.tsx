@@ -6,6 +6,7 @@ import type { RESUME_DATA } from "@/data/resume-data";
 import { cn } from "@/lib/utils";
 
 type WorkExperience = (typeof RESUME_DATA)["work"][number];
+type WorkRole = WorkExperience["roles"][number];
 type WorkBadges = readonly string[];
 
 interface BadgeListProps {
@@ -43,8 +44,8 @@ function BadgeList({
 }
 
 interface WorkPeriodProps {
-  start: WorkExperience["start"];
-  end?: WorkExperience["end"];
+  start: WorkRole["start"];
+  end?: WorkRole["end"];
 }
 
 /**
@@ -89,18 +90,57 @@ function CompanyLink({
   );
 }
 
+interface WorkRoleItemProps {
+  role: WorkRole;
+  isFirstRole: boolean;
+}
+
+/**
+ * Individual work role component
+ * Handles responsive layout for badges (mobile/desktop)
+ */
+function WorkRoleItem({
+  role,
+  isFirstRole,
+}: WorkRoleItemProps) {
+  const { badges, title, start, end, description } = role;
+
+  return (
+    <div className={cn("space-y-2", isFirstRole ? "" : "border-t pt-4")}>
+      <div className="flex items-center justify-between gap-x-2 text-base">
+        <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm font-semibold leading-none print:text-[12px]">
+          {title}
+          <BadgeList
+            className="hidden gap-x-1 sm:inline-flex"
+            badges={badges}
+          />
+        </h4>
+        <WorkPeriod start={start} end={end} />
+      </div>
+      <div className="text-xs text-foreground/80 print:text-[10px] text-pretty">
+        {description}
+      </div>
+      <div>
+        <BadgeList
+          className="-mx-2 flex-wrap gap-1 sm:hidden"
+          badges={badges}
+        />
+      </div>
+    </div>
+  );
+}
+
 interface WorkExperienceItemProps {
   work: WorkExperience;
 }
 
 /**
  * Individual work experience card component
- * Handles responsive layout for badges (mobile/desktop)
  */
 function WorkExperienceItem({
   work,
 }: WorkExperienceItemProps) {
-  const { company, link, badges, title, start, end, description } = work;
+  const { company, link, roles } = work;
 
   return (
     <Card className="py-1 print:py-0">
@@ -108,29 +148,18 @@ function WorkExperienceItem({
         <div className="flex items-center justify-between gap-x-2 text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
             <CompanyLink company={company} link={link} />
-            <BadgeList
-              className="hidden gap-x-1 sm:inline-flex"
-              badges={badges}
-            />
           </h3>
-          <WorkPeriod start={start} end={end} />
         </div>
-
-        <h4 className="font-mono text-sm font-semibold leading-none print:text-[12px]">
-          {title}
-        </h4>
       </CardHeader>
 
-      <CardContent>
-        <div className="mt-2 text-xs text-foreground/80 print:mt-1 print:text-[10px] text-pretty">
-          {description}
-        </div>
-        <div className="mt-2">
-          <BadgeList
-            className="-mx-2 flex-wrap gap-1 sm:hidden"
-            badges={badges}
+      <CardContent className="space-y-4">
+        {roles.map((role, index) => (
+          <WorkRoleItem
+            key={`${company}-${role.title}-${role.start}`}
+            role={role}
+            isFirstRole={index === 0}
           />
-        </div>
+        ))}
       </CardContent>
     </Card>
   );
@@ -158,7 +187,7 @@ export function WorkExperience({
         aria-labelledby="work-experience"
       >
         {work.map((item) => (
-          <article key={`${item.company}-${item.start}`}>
+          <article key={`${item.company}-${item.roles[0]?.start ?? "role"}`}>
             <WorkExperienceItem work={item} />
           </article>
         ))}

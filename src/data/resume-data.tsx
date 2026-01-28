@@ -47,121 +47,179 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Black Diamond Equipmemt",
       link: "https://blackdiamondequipment.com/",
-      badges: ["CAD", "FEA"],
-      title: "Senior Design Engineer",
-      start: "2023",
-      end: "Present",
-      description: (
-        <>
-          Design engineering leader for the brand's most ambitious products.
-          <ul className="list-inside list-disc">
-            <li>
-              Building physical concept prototypes involving electronics integration into PPE hardgoods. Python, openVESC, Lisp, C, RF with bluetooth. 
-              Essentially arduino integration into hardgoods.
-            </li>
-            <li>
-              Design of two headlamps from concept to production. Responsible for all 3D CAD, from aesthetic surfaces to PCB layout. Desin for mass production 
-              assembly, including complex injection mold layouts with multiple lifters and overmolds. 
-            </li>
-            <li>
-              Taught freeform NURBS surfacing best practices to entire engineering team. 
-            </li>
-          </ul>
-        </>
-      ),
+      roles: [
+        {
+          badges: ["CAD", "FEA"],
+          title: "Senior Design Engineer",
+          start: "2023",
+          end: "Present",
+          description: (
+            <>
+              Design engineering leader for the brand's most ambitious products.
+              <ul className="list-inside list-disc">
+                <li>
+                  Building physical concept prototypes involving electronics integration into PPE hardgoods. Python, openVESC, Lisp, C, RF with bluetooth.
+                  Essentially arduino integration into hardgoods.
+                </li>
+                <li>
+                  Design of two headlamps from concept to production. Responsible for all 3D CAD, from aesthetic surfaces to PCB layout. Desin for mass production
+                  assembly, including complex injection mold layouts with multiple lifters and overmolds.
+                </li>
+                <li>
+                  Taught freeform NURBS surfacing best practices to entire engineering team.
+                </li>
+              </ul>
+            </>
+          ),
+        },
+        {
+          badges: ["CAD", "FEA"],
+          title: "Design Engineer",
+          start: "2020",
+          end: "2023",
+          description: (
+            <>
+              Led end-to-end product design efforts across technical outdoor equipment.
+              <ul className="list-inside list-disc">
+                <li>
+                  Developed high-performance hardgoods with advanced materials and manufacturing processes.
+                </li>
+                <li>
+                  Partnered with cross-functional teams to refine product requirements and validate design performance.
+                </li>
+              </ul>
+            </>
+          ),
+        },
+        {
+          badges: ["CAD", "FEA"],
+          title: "Quality Engineer",
+          start: "2017",
+          end: "2020",
+          description: (
+            <>
+              Supported product quality initiatives to improve reliability and manufacturing readiness.
+              <ul className="list-inside list-disc">
+                <li>
+                  Implemented test plans and failure analysis workflows for critical components.
+                </li>
+                <li>
+                  Collaborated with suppliers to resolve quality issues and improve production consistency.
+                </li>
+              </ul>
+            </>
+          ),
+        },
+      ],
     },
     {
       company: "Parabol",
       link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+      roles: [
+        {
+          badges: [
+            "Remote",
+            "React",
+            "TypeScript",
+            "Node.js",
+            "GraphQL",
+            "Tailwind CSS",
+          ],
+          title: "Senior Full Stack Developer",
+          start: "2021",
+          end: "2024",
+          description: (
+            <>
+              Senior developer and squad leader for an enterprise agile meeting
+              platform.
+              <ul className="list-inside list-disc">
+                <li>
+                  Built design system with Tailwind CSS, improving development speed
+                  and time to market
+                </li>
+                <li>
+                  Implemented engineering practices: PR automation, code review
+                  guidelines, and workflows
+                </li>
+                <li>
+                  Open source contributions to Relay DevTools and React i18n tooling
+                </li>
+              </ul>
+            </>
+          ),
+        },
       ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
     },
     {
       company: "Clevertech",
       link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
+      roles: [
+        {
+          badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
+          title: "Lead Android Developer → Full Stack Developer",
+          start: "2015",
+          end: "2021",
+          description: (
+            <>
+              Successfully transitioned from mobile to full-stack development while
+              leading distributed teams.
+              <ul className="list-inside list-disc">
+                <li>
+                  Led frontend team at Evercast, building real-time platform
+                  supporting 30+ users per room with HD streaming and collaboration
+                  tools
+                </li>
+                <li>
+                  Developed offline-first Android app for DKMS, improving donor
+                  registration process
+                </li>
+                <li>
+                  Led development teams across multiple successful client projects
+                </li>
+              </ul>
+            </>
+          ),
+        },
+      ],
     },
     {
       company: "Jojo Mobile",
       link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
+      roles: [
+        {
+          badges: ["On Site", "Android", "Java", "Kotlin"],
+          title: "Android Developer → Lead Android Developer",
+          start: "2012",
+          end: "2015",
+          description: (
+            <>
+              First Android developer, grew and led a team of 15+ engineers while
+              establishing engineering culture.
+              <ul className="list-inside list-disc">
+                <li>
+                  Developed apps for major Polish companies including LOT, Polskie
+                  Radio, and Agora
+                </li>
+                <li>Built and mentored high-performing mobile development team</li>
+              </ul>
+            </>
+          ),
+        },
+      ],
     },
     {
       company: "Nokia Siemens Networks",
       link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      roles: [
+        {
+          badges: ["On Site", "C/C++", "LTE", "Agile"],
+          title: "C/C++ Developer",
+          start: "2010",
+          end: "2012",
+          description:
+            "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+        },
+      ],
     },
   ],
   skills: [

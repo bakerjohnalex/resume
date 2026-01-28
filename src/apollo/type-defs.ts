@@ -37,13 +37,7 @@ export class Education {
 }
 
 @ObjectType()
-export class Work {
-  @Field(() => String)
-  company: string;
-
-  @Field(() => String)
-  link: string;
-
+export class WorkRole {
   @Field(() => [String])
   badges: string[];
 
@@ -58,6 +52,18 @@ export class Work {
 
   @Field(() => String)
   description: string;
+}
+
+@ObjectType()
+export class Work {
+  @Field(() => String)
+  company: string;
+
+  @Field(() => String)
+  link: string;
+
+  @Field(() => [WorkRole])
+  roles: WorkRole[];
 }
 
 @ObjectType()
