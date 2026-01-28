@@ -45,41 +45,26 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [
     {
-      company: "Black Diamond Equipment",
+      company: "Black Diamond Equipmemt",
       link: "https://blackdiamondequipment.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Design Engineer,
-      start: "2011",
-      end: null,
+      badges: ["CAD", "FEA"],
+      title: "Senior Design Engineer",
+      start: "2023",
+      end: "Present",
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Design engineering leader for the brand's most ambitious products.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Building physical concept prototypes involving electronics integration into PPE hardgoods. Python, openVESC, Lisp, C, RF with bluetooth. 
+              Essentially arduino integration into hardgoods.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Design of two headlamps from concept to production. Responsible for all 3D CAD, from aesthetic surfaces to PCB layout. Desin for mass production 
+              assembly, including complex injection mold layouts with multiple lifters and overmolds. 
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Taught freeform NURBS surfacing best practices to entire engineering team. 
             </li>
           </ul>
         </>
