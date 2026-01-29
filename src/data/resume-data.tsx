@@ -145,17 +145,17 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-      title: "Monito",
+      title: "Project1",
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Placeholder description for Project1. Swap in the real summary when the project narrative is ready.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Project1",
+        href: "/projects/project1",
       },
     },
     {
-      title: "Consultly",
+      title: "Project2",
       techStack: [
         "TypeScript",
         "Next.js",
@@ -167,20 +167,20 @@ export const RESUME_DATA: ResumeData = {
         "Redis",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Placeholder description for Project2. Use this space for the one-liner overview.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Project2",
+        href: "/projects/project2",
       },
     },
     {
-      title: "Minimalist CV",
+      title: "Project3",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Placeholder description for Project3. Add real details once the story is finalized.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "Project3",
+        href: "/projects/project3",
       },
     },
   ],
