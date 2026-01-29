@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const projectImages = [
   {
-    src: "/me.jpg",
+    src: "/ulcamused.jpg",
     alt: "Project1 preview image one",
   },
   {
