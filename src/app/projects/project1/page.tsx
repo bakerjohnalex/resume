@@ -12,11 +12,11 @@ const projectImages = [
     alt: "Project1 preview image one",
   },
   {
-    src: "/me.jpg",
+    src: "/ulcamrender.jpg",
     alt: "Project1 preview image two",
   },
   {
-    src: "/me.jpg",
+    src: "/ulcamused.jpg",
     alt: "Project1 preview image three",
   },
 ];
