@@ -150,8 +150,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Project1",
+        href: "/projects/project1",
       },
     },
     {
