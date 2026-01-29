@@ -43,7 +43,7 @@ export default function Project1Page() {
         <div className="grid gap-4 md:grid-cols-3">
           {projectImages.map((image) => (
             <div
-              key={`${image.alt}-${image.src}`}
+              key={image.src}
               className="overflow-hidden rounded-2xl border bg-card shadow-sm"
             >
               <Image
