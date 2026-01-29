@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 
 const projectImages = [
   {
-    src: "/ulcamused.jpg",
+    src: "/ulcamrender.jpg",
     alt: "Project1 preview image one",
   },
   {
-    src: "/ulcamrender.jpg",
+    src: "/ulcamfullset.jpg",
     alt: "Project1 preview image two",
   },
   {
