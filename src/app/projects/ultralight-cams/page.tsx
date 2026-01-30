@@ -35,7 +35,7 @@ export default function UltralightCamsPage() {
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
           Ultralight Cams
         </h1>
-        <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
+        <p className="text-sm text-muted-foreground md:text-base">
           The backstory of the world's lightest cams.
         </p>
       </header>
@@ -69,7 +69,7 @@ export default function UltralightCamsPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base leading-relaxed">
+        <p className="mt-3 text-sm text-muted-foreground md:text-base leading-relaxed">
           The core of this project was figuring out a way to use Dyneema instead
           of steel for the core structural integrity of a cam. The idea is
           relatively simple, but executing on it was extremely difficult because

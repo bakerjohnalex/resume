@@ -39,7 +39,7 @@ export default function Project3Page() {
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
           Lamps
         </h1>
-        <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
+        <p className="text-sm text-muted-foreground md:text-base">
           Placeholder copy for Lamps. Use this space for a short, friendly
           summary that sets the tone for the work.
         </p>
@@ -74,7 +74,7 @@ export default function Project3Page() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
+        <p className="mt-3 text-sm text-muted-foreground md:text-base">
           Add the Lamps details here. Highlight the goals, the feature set, and
           any milestones you want to track as the work evolves.
         </p>

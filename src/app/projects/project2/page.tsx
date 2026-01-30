@@ -39,7 +39,7 @@ export default function Project2Page() {
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
           Carabiners
         </h1>
-        <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
+        <p className="text-sm text-muted-foreground md:text-base">
           Placeholder copy for Carabiners. Replace this sentence with a crisp,
           benefit-driven one-liner when the story is ready.
         </p>
@@ -74,7 +74,7 @@ export default function Project2Page() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
+        <p className="mt-3 text-sm text-muted-foreground md:text-base">
           Add the Carabiners background here. Note the audience, outcomes, and
           the primary differentiator. This section is intentionally flexible so
           it can grow with the project details.
