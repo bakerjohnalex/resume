@@ -40,17 +40,21 @@ export default function Project2Page() {
       <section aria-label="Project2 preview images" className="space-y-4">
         <h2 className="text-lg font-semibold">Project snapshots</h2>
         <div className="grid gap-4 md:grid-cols-3">
-          {projectImages.map((image) => (
+          {projectImages.map((image, index) => (
             <div
               key={`${image.alt}-${image.src}`}
-              className="overflow-hidden rounded-2xl border bg-card shadow-sm"
+              className={`aspect-square overflow-hidden rounded-2xl border bg-card shadow-sm transition-transform duration-300 hover:rotate-0 ${
+                index % 2 === 0
+                  ? "-rotate-1 md:-rotate-2"
+                  : "rotate-1 md:rotate-2"
+              }`}
             >
               <Image
                 src={image.src}
                 alt={image.alt}
                 width={720}
-                height={480}
-                className="h-56 w-full object-cover"
+                height={720}
+                className="h-full w-full object-cover"
               />
             </div>
           ))}
