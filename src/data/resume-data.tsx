@@ -49,7 +49,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://blackdiamondequipment.com/",
       roles: [
         {
-          badges: ["Mentoring", "Hiring","Python","C","OpenVESC","Lisp","RF design","Motor Control"],
+          badges: ["Mentoring", "Hiring"],
           title: "Senior Design Engineer",
           start: "2023",
           end: "Present",
@@ -73,7 +73,7 @@ export const RESUME_DATA: ResumeData = {
           ),
         },
         {
-          badges: ["Siemens NX", "ANSYS","CNC","MIM","Forging","Injection Molding","Sheet Metal"],
+          badges: ["Siemens NX", "ANSYS"],
           title: "Design Engineer",
           start: "2020",
           end: "2023",
@@ -92,7 +92,7 @@ export const RESUME_DATA: ResumeData = {
           ),
         },
         {
-          badges: ["LabView", "Pneumatic control","Statistics","Instron","PFMEA"],
+          badges: ["LabView", "Pneumatic control"],
           title: "Quality Engineer",
           start: "2017",
           end: "2020",
