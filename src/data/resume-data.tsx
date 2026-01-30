@@ -50,7 +50,7 @@ export const RESUME_DATA: ResumeData = {
         {
           badges: ["Current"],
           title: "Senior Design Engineer",
-          start: "2023",
+          start: "2019",
           end: "Present",
           description: (
             <>
@@ -76,17 +76,17 @@ export const RESUME_DATA: ResumeData = {
         {
           badges: [],
           title: "Design Engineer",
-          start: "2020",
-          end: "2023",
+          start: "2013",
+          end: "2019",
           description: (
             <>
-              Led end-to-end product design efforts across technical outdoor equipment.
+              Design of many products, from concept through production.
               <ul className="list-inside list-disc">
                 <li>
-                  Developed high-performance hardgoods with advanced materials and manufacturing processes.
+                  Multiple succesful products, with meaningful contributions to bottom and top line dollars.
                 </li>
                 <li>
-                  Partnered with cross-functional teams to refine product requirements and validate design performance.
+                  Multiple patents granted for innovations across multiple categories.
                 </li>
               </ul>
             </>
@@ -95,17 +95,17 @@ export const RESUME_DATA: ResumeData = {
         {
           badges: [],
           title: "Quality Engineer",
-          start: "2017",
-          end: "2020",
+          start: "2011",
+          end: "2013",
           description: (
             <>
-              Supported product quality initiatives to improve reliability and manufacturing readiness.
+              RnD quality engineer supporting testing and validation of concept and other pre-production products.
               <ul className="list-inside list-disc">
                 <li>
-                  Implemented test plans and failure analysis workflows for critical components.
+                  Implemented and executed on test plans for life supporting PPE. Designed test fixtures, and built them. Pneumatics, LabView, and Instron.
                 </li>
                 <li>
-                  Collaborated with suppliers to resolve quality issues and improve production consistency.
+                  Collaborated with suppliers before production to convey quality concerns and develop monitoring plans for ongoing manufacturing efforts.
                 </li>
               </ul>
             </>
