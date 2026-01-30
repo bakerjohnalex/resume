@@ -70,11 +70,41 @@ export default function CarabinersPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the Carabiners background here. Note the audience, outcomes, and
-          the primary differentiator. This section is intentionally flexible so
-          it can grow with the project details.
-        </p>
+
+        <div className="mt-3 space-y-4 text-sm text-muted-foreground md:text-base">
+          <p>
+            I led the design of a new line of carabiners at a new manufacturing
+            partner. Black Diamond was winding down in-house carabiner
+            production, and I was responsible for launching an all-new product
+            line at a factory we hadn’t used before. I owned the mechanical
+            design for every carabiner, including 3D models and drawing sets,
+            while coordinating closely with the factory, industrial design, and
+            project management to keep requirements aligned and decisions moving.
+            The best part was the cross-functional collaboration, which helped
+            deliver five carabiner projects early and under budget and
+            established a strong foundation for future work at the factory. Key
+            contributors included Jake Hall (industrial design), Mary Kate
+            (project management), and the team at CIC for executing production.
+            I am extremely grateful to have been able to work with this team.
+          </p>
+
+          <p className="font-semibold text-foreground">
+            A special note on carabiner design:
+          </p>
+
+          <p>
+            Carabiners are a unique product to design because they are PPE with
+            certification and safety requirements, they are also very cheap (FOB
+            costs need to be a few dollars), and they are extremely weight
+            constrained. They appear easy to design at first glance, but very
+            small surface tweaks can be the difference between garbage and a
+            long lasting product that I'm happy to trust my life with. In
+            summary, I think a mediocre carabiner is easy to design (I've made a
+            few), but a weight constrained, fit for production, durable, good
+            looking carabiner that people actually want to buy is a special
+            challenge in nuance.
+          </p>
+        </div>
       </section>
     </main>
   );
