@@ -43,94 +43,106 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   work: [
-    {
-      company: "Black Diamond Equipmemt",
-      link: "https://blackdiamondequipment.com/",
-      roles: [
-        {
-          badges: ["Current"],
-          title: "Senior Design Engineer",
-          start: "2019",
-          end: "Present",
-          description: (
-            <>
-              Design engineering leader for the brand's most ambitious products.
-              <ul className="list-inside list-disc">
-                <li>
-                  Designing and building prototypes for the research arm of Black Diamond.
-                  Electronics integration into PPE hardgoods. 
-                  Python, openVESC, Lisp, C, RF with bluetooth.
-                  Essentially an experienced mechanical engineer powered by AI, Arduinos, and a professional machine shop .
-                </li>
-                <li>
-                  Design of two headlamps from concept to production. Responsible for all 3D CAD, from aesthetic surfaces to PCB layout. Design for mass production
-                  assembly, including complex injection mold layouts with multiple lifters and overmolds.
-                </li>
-                <li>
-                  Taught freeform NURBS surfacing best practices to entire engineering team.
-                </li>
-              </ul>
-            </>
-          ),
-        },
-        {
-          badges: [],
-          title: "Design Engineer",
-          start: "2013",
-          end: "2019",
-          description: (
-            <>
-              Design of many products, from concept through production.
-              <ul className="list-inside list-disc">
-                <li>
-                  Multiple succesful products, with meaningful contributions to bottom and top line dollars.
-                </li>
-                <li>
-                  Multiple patents granted for innovations across multiple categories.
-                </li>
-              </ul>
-            </>
-          ),
-        },
-        {
-          badges: [],
-          title: "Quality Engineer",
-          start: "2011",
-          end: "2013",
-          description: (
-            <>
-              RnD quality engineer supporting testing and validation of concept and other pre-production products.
-              <ul className="list-inside list-disc">
-                <li>
-                  Implemented and executed on test plans for life supporting PPE. Designed test fixtures, and built them. Pneumatics, LabView, and Instron.
-                </li>
-                <li>
-                  Collaborated with suppliers before production to convey quality concerns and develop monitoring plans for ongoing manufacturing efforts.
-                </li>
-              </ul>
-            </>
-          ),
-        },
-      ],
-    },
-    {
-      company: "Alleman Hall McCoy Russell and Tuttle",
-      link: "https://example.com",
-      roles: [
-        {
-          badges: [],
-          title: "Technical Consultant",
-          start: "2018",
-          end: "2020",
-          description: (
-            <>
-              Wrote and prosecuted patents as a technical consultant.
-            </>
-          ),
-        },
-      ],
-    },
-  ],
+  {
+    company: "Black Diamond Equipment",
+    link: "https://blackdiamondequipment.com/",
+    roles: [
+      {
+        badges: ["Current"],
+        title: "Senior Design Engineer",
+        start: "2019",
+        end: "Present",
+        description: (
+          <>
+            Lead design engineer for high-ambiguity, high-impact products from concept through production.
+            <ul className="list-inside list-disc">
+              <li>
+                Designed and built prototypes for advanced R&amp;D programs, taking early concepts to production-intent
+                builds through rapid iteration.
+              </li>
+              <li>
+                Integrated electronics into safety-critical hardgoods (PPE), including electro-mechanical packaging,
+                environmental sealing, and RF/Bluetooth considerations.
+              </li>
+              <li>
+                Developed custom analysis and prototyping tools (Python + embedded platforms such as Arduino and
+                VESC-based motor control) to accelerate design validation and testing.
+              </li>
+              <li>
+                Designed two headlamps from concept to production, owning 3D CAD from freeform/aesthetic surfaces
+                through mechanical architecture and DFM/DFA for mass production assembly, including complex injection
+                mold layouts with lifters, slides, and overmolds.
+              </li>
+              <li>
+                Taught freeform NURBS surfacing best practices across the engineering team, improving surface quality and
+                modeling consistency.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        badges: [],
+        title: "Design Engineer",
+        start: "2013",
+        end: "2019",
+        description: (
+          <>
+            Designed and shipped products across multiple categories, from early concepts through production ramp.
+            <ul className="list-inside list-disc">
+              <li>
+                Contributed to multiple successful product launches with meaningful impact on revenue and margin.
+              </li>
+              <li>
+                Named inventor on multiple granted patents for innovations across diverse hardware categories.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        badges: [],
+        title: "Quality Engineer",
+        start: "2011",
+        end: "2013",
+        description: (
+          <>
+            R&amp;D Quality Engineer supporting test and validation of pre-production and concept-stage PPE.
+            <ul className="list-inside list-disc">
+              <li>
+                Developed and executed test plans for life-safety PPE, including fixture design/build and
+                instrumentation (pneumatics, LabVIEW, Instron).
+              </li>
+              <li>
+                Partnered with suppliers pre-production to communicate quality risks and implement monitoring and
+                control plans for ongoing manufacturing.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    company: "Alleman Hall McCoy Russell and Tuttle",
+    link: "https://example.com",
+    roles: [
+      {
+        badges: [],
+        title: "Technical Consultant",
+        start: "2018",
+        end: "2020",
+        description: (
+          <>
+            Drafted and prosecuted patents as a technical consultant, translating engineering concepts into clear,
+            defensible claims.
+          </>
+        ),
+      },
+    ],
+  },
+],
+
   skills: [
     "Siemens NX",
     "Non Linear FEA",
