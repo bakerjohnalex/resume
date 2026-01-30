@@ -39,7 +39,7 @@ export default function Project1Page() {
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
           Ultralight Cams
         </h1>
-        <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
+        <p className="text-sm text-muted-foreground md:text-base">
           A simple landing page to showcase the Ultralight Cams concept.
           Replace this with a crisp one-liner that captures the work&apos;s core
           value.
@@ -75,7 +75,7 @@ export default function Project1Page() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
+        <p className="mt-3 text-sm text-muted-foreground md:text-base">
           Add the detailed Ultralight Cams story here. Share the problem it
           solves, the people it&apos;s built for, and what makes it special. Keep
           this section flexible so you can add timelines, outcomes, or
