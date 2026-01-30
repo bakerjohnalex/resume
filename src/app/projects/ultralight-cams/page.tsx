@@ -23,13 +23,9 @@ const projectImages = [
     src: "/me.jpg",
     alt: "Ultralight Cams preview image four",
   },
-  {
-    src: "/me.jpg",
-    alt: "Project1 preview image four",
-  },
 ];
 
-export default function Project1Page() {
+export default function UltralightCamsPage() {
   return (
     <main className="container mx-auto flex min-h-screen flex-col gap-10 p-4 md:p-12">
       <header className="space-y-3">

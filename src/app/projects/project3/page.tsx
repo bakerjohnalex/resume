@@ -2,22 +2,26 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Project3 - Side Project",
-  description: "Landing page for the Project3 side project.",
+  title: "Lamps - Selected Work",
+  description: "Landing page for the Lamps selected work.",
 };
 
 const projectImages = [
   {
     src: "/me.jpg",
-    alt: "Project3 preview image one",
+    alt: "Lamps preview image one",
   },
   {
     src: "/me.jpg",
-    alt: "Project3 preview image two",
+    alt: "Lamps preview image two",
   },
   {
     src: "/me.jpg",
-    alt: "Project3 preview image three",
+    alt: "Lamps preview image three",
+  },
+  {
+    src: "/me.jpg",
+    alt: "Lamps preview image four",
   },
   {
     src: "/me.jpg",
@@ -30,18 +34,18 @@ export default function Project3Page() {
     <main className="container mx-auto flex min-h-screen flex-col gap-10 p-4 md:p-12">
       <header className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-          Side Project
+          Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Project3
+          Lamps
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
-          Placeholder copy for Project3. Use this space for a short, friendly
-          summary that sets the tone for the project.
+          Placeholder copy for Lamps. Use this space for a short, friendly
+          summary that sets the tone for the work.
         </p>
       </header>
 
-      <section aria-label="Project3 preview images" className="space-y-4">
+      <section aria-label="Lamps preview images" className="space-y-4">
         <h2 className="text-lg font-semibold">Project snapshots</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {projectImages.map((image, index) => (
@@ -66,13 +70,13 @@ export default function Project3Page() {
       </section>
 
       <section
-        aria-label="Project3 description"
+        aria-label="Lamps description"
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
         <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
-          Add the Project3 details here. Highlight the goals, the feature set,
-          and any milestones you want to track as the project evolves.
+          Add the Lamps details here. Highlight the goals, the feature set, and
+          any milestones you want to track as the work evolves.
         </p>
       </section>
     </main>

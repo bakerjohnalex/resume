@@ -2,34 +2,30 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Ultralight Cams - Selected Work",
-  description: "Landing page for the Ultralight Cams selected work.",
+  title: "X4 (quality) - Selected Work",
+  description: "Landing page for the X4 (quality) selected work.",
 };
 
 const projectImages = [
   {
-    src: "/ulcamrender.jpg",
-    alt: "Ultralight Cams preview image one",
-  },
-  {
-    src: "/ulcamfullset.jpg",
-    alt: "Ultralight Cams preview image two",
-  },
-  {
-    src: "/ulcamused.jpg",
-    alt: "Ultralight Cams preview image three",
+    src: "/me.jpg",
+    alt: "X4 (quality) preview image one",
   },
   {
     src: "/me.jpg",
-    alt: "Ultralight Cams preview image four",
+    alt: "X4 (quality) preview image two",
   },
   {
     src: "/me.jpg",
-    alt: "Project1 preview image four",
+    alt: "X4 (quality) preview image three",
+  },
+  {
+    src: "/me.jpg",
+    alt: "X4 (quality) preview image four",
   },
 ];
 
-export default function Project1Page() {
+export default function X4QualityPage() {
   return (
     <main className="container mx-auto flex min-h-screen flex-col gap-10 p-4 md:p-12">
       <header className="space-y-3">
@@ -37,21 +33,20 @@ export default function Project1Page() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Ultralight Cams
+          X4 (quality)
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
-          A simple landing page to showcase the Ultralight Cams concept.
-          Replace this with a crisp one-liner that captures the work&apos;s core
-          value.
+          Placeholder copy for X4 (quality). Replace this sentence with a crisp,
+          benefit-driven one-liner when the story is ready.
         </p>
       </header>
 
-      <section aria-label="Ultralight Cams preview images" className="space-y-4">
+      <section aria-label="X4 (quality) preview images" className="space-y-4">
         <h2 className="text-lg font-semibold">Project snapshots</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {projectImages.map((image, index) => (
             <div
-              key={image.src}
+              key={`${image.alt}-${image.src}`}
               className={`aspect-square w-full overflow-hidden rounded-2xl border bg-card shadow-sm transition-transform duration-300 hover:rotate-0 ${
                 index % 2 === 0
                   ? "-rotate-1 md:-rotate-2"
@@ -71,15 +66,14 @@ export default function Project1Page() {
       </section>
 
       <section
-        aria-label="Ultralight Cams description"
+        aria-label="X4 (quality) description"
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
         <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
-          Add the detailed Ultralight Cams story here. Share the problem it
-          solves, the people it&apos;s built for, and what makes it special. Keep
-          this section flexible so you can add timelines, outcomes, or
-          additional media as the project evolves.
+          Add the X4 (quality) background here. Note the audience, outcomes, and
+          the primary differentiator. This section is intentionally flexible so
+          it can grow with the project details.
         </p>
       </section>
     </main>

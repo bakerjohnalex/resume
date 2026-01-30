@@ -2,22 +2,26 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Project2 - Side Project",
-  description: "Landing page for the Project2 side project.",
+  title: "Carabiners - Selected Work",
+  description: "Landing page for the Carabiners selected work.",
 };
 
 const projectImages = [
   {
     src: "/me.jpg",
-    alt: "Project2 preview image one",
+    alt: "Carabiners preview image one",
   },
   {
     src: "/me.jpg",
-    alt: "Project2 preview image two",
+    alt: "Carabiners preview image two",
   },
   {
     src: "/me.jpg",
-    alt: "Project2 preview image three",
+    alt: "Carabiners preview image three",
+  },
+  {
+    src: "/me.jpg",
+    alt: "Carabiners preview image four",
   },
   {
     src: "/me.jpg",
@@ -30,18 +34,18 @@ export default function Project2Page() {
     <main className="container mx-auto flex min-h-screen flex-col gap-10 p-4 md:p-12">
       <header className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-          Side Project
+          Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Project2
+          Carabiners
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
-          Placeholder copy for Project2. Replace this sentence with a crisp,
-          benefit-driven one-liner when the project story is ready.
+          Placeholder copy for Carabiners. Replace this sentence with a crisp,
+          benefit-driven one-liner when the story is ready.
         </p>
       </header>
 
-      <section aria-label="Project2 preview images" className="space-y-4">
+      <section aria-label="Carabiners preview images" className="space-y-4">
         <h2 className="text-lg font-semibold">Project snapshots</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {projectImages.map((image, index) => (
@@ -66,14 +70,14 @@ export default function Project2Page() {
       </section>
 
       <section
-        aria-label="Project2 description"
+        aria-label="Carabiners description"
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
         <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
-          Add the Project2 background here. Note the audience, outcomes, and the
-          primary differentiator. This section is intentionally flexible so it
-          can grow with the project details.
+          Add the Carabiners background here. Note the audience, outcomes, and
+          the primary differentiator. This section is intentionally flexible so
+          it can grow with the project details.
         </p>
       </section>
     </main>
