@@ -8,7 +8,8 @@ export const RESUME_DATA: ResumeData = {
   about: "Design engineer that loves creating things",
   summary: (
     <>
-      I handle the technical implementation of hard to solve problems that address real user needs. This usually means 3D CAD, FEA, building building my own prototypes and maybe some Python. I thrive in extremely ambiguous environments. 
+      I own technical execution on hard-to-solve product problems, turning ambiguous needs into prototypes and production-ready designs. My toolkit includes 3D CAD, nonlinear FEA, hands-on prototyping, and AI for analysis and automation. I thrive when the problems are challenging 
+and no step-by-step solution exists.
     </>
   ),
   avatarUrl: "/me.jpg",
