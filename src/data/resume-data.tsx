@@ -49,7 +49,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://blackdiamondequipment.com/",
       roles: [
         {
-          badges: ["Mentoring", "Hiring"],
+          badges: ["Mentoring", "Hiring","Python","C","OpenVESC","Lisp","RF design","Motor Control"],
           title: "Senior Design Engineer",
           start: "2023",
           end: "Present",
@@ -73,7 +73,7 @@ export const RESUME_DATA: ResumeData = {
           ),
         },
         {
-          badges: ["CAD", "FEA"],
+          badges: ["Siemens NX", "ANSYS","CNC","MIM","Forging","Injection Molding","Sheet Metal"],
           title: "Design Engineer",
           start: "2020",
           end: "2023",
@@ -92,7 +92,7 @@ export const RESUME_DATA: ResumeData = {
           ),
         },
         {
-          badges: ["CAD", "FEA"],
+          badges: ["LabView", "Pneumatic control","Statistics","Instron","PFMEA"],
           title: "Quality Engineer",
           start: "2017",
           end: "2020",
@@ -117,7 +117,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://example.com",
       roles: [
         {
-          badges: ["Patents", "Technical Consulting"],
+          badges: ["Patent Writiring", "Patent Prosecution"],
           title: "Technical Consultant",
           start: "2018",
           end: "2020",
@@ -131,22 +131,17 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Siemens NX",
+    "Non Linear FEA",
+    "ANSYS",
+    "OpenAI Codex",
+    "TensorFlow",
+    "Arduino Robotics",
   ],
   projects: [
     {
       title: "Ultralight Cams",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      techStack: ["CNC", "Dyneema", "Splicing", "Mass Assembly"],
       description:
         "The world's lightest camming devices, 10 years running.",
       link: {
@@ -157,14 +152,10 @@ export const RESUME_DATA: ResumeData = {
     {
       title: "Carabiners",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Forging",
+        "Supplier Validation",
+        "CNC",
+        "Material Sourcing",
       ],
       description:
         "An entire line of a carabiners, designed ground up and developed at a new factory",
@@ -175,7 +166,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Lamps",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      techStack: ["Injection Molding", "Slides", "Lifters","Overmolds","Rapid RTV","PCB Layout","Compliant Mechanisms"],
       description:
         "The most popular headlamps in the world",
       link: {
@@ -185,7 +176,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Belay",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      techStack: ["Forging", "CNC", "MIM","Rope Dynamics", "Motion Analysis"],
       description:
         "Ongoing design project, design for safety and ease of use at the same time",
       link: {
@@ -195,7 +186,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "X4 (quality)",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      techStack: ["PPE", "Product Certification", "PLC Programming","Statistical QC","Extreme Ownnership"],
       description:
         "My first professional project. I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas",
       link: {
@@ -205,7 +196,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Stinger",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      techStack: ["Sheet Metal", "Injection Molding", "Steel Coating","Heat Treating"],
       description:
         "An epic sheet metal project that hasn't made it to market (yet)",
       link: {
