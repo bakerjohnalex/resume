@@ -5,10 +5,10 @@ export const RESUME_DATA: ResumeData = {
   initials: "AB",
   location: "Salt Lake City, UT",
   locationLink: "https://www.google.com/maps/place/saltlakecity",
-  about: "I handle the technical implementation of hard to solve problems that address real user needs. This usually means 3D CAD, FEA, building building my own prototypes and maybe some Python. I thrive in extremely ambiguous environments.",
+  about: "Design engineer that loves creating things",
   summary: (
     <>
-      Design engineer that loves creating things. 
+      I handle the technical implementation of hard to solve problems that address real user needs. This usually means 3D CAD, FEA, building building my own prototypes and maybe some Python. I thrive in extremely ambiguous environments. 
     </>
   ),
   avatarUrl: "/me.jpg",
