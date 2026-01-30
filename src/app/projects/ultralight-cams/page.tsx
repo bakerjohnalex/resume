@@ -20,7 +20,7 @@ const projectImages = [
     alt: "Ultralight Cams preview image three",
   },
   {
-    src: "/me.jpg",
+    src: "/ulcam4.jpg",
     alt: "Ultralight Cams preview image four",
   },
 ];
