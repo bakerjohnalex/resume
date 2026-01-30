@@ -69,17 +69,19 @@ export default function UltralightCamsPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
-          The core of this project was figuring out a way to use dyneema instead of 
-          steel for the core structural integrity of a cam. The idea is relatively 
-          simple, but executing on it was extremely difficult because no had figured 
-          out how assemble a cam with dyneema and keep the overall stiffness and 
-          durability of the steel variant. I invented a novel assembly method to create
-          a tensioned loop of dyneema that holds the entire cam together, but remains
-          internal and protected. This involved hand building dozens of prototype designs,
-          all of which required their own assembly methods with custom components and custom 
-          assembly tools. In the end, the design was patented and the assembly method remains 
-          a trade secret, over 10 years later. These remain the lightest full range cams ever built. 
+        <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base leading-relaxed">
+          The core of this project was figuring out a way to use Dyneema instead
+          of steel for the core structural integrity of a cam. The idea is
+          relatively simple, but executing on it was extremely difficult because
+          no one had figured out how to assemble a cam with Dyneema and keep the
+          overall stiffness and durability of the steel variant. I invented a
+          novel assembly method to create a tensioned loop of Dyneema that
+          holds the entire cam together but remains internal and protected.
+          This involved hand-building dozens of prototype designs, all of which
+          required their own assembly methods with custom components and custom
+          assembly tools. In the end, the design was patented and the assembly
+          method remains a trade secret over 10 years later. These remain the
+          lightest full-range cams ever built.
         </p>
       </section>
     </main>
