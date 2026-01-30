@@ -145,17 +145,17 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-      title: "Project1",
+      title: "Ultralight Cams",
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
       description:
-        "Placeholder description for Project1. Swap in the real summary when the project narrative is ready.",
+        "Placeholder description for Ultralight Cams. Swap in the real summary when the project narrative is ready.",
       link: {
-        label: "Project1",
-        href: "/projects/project1",
+        label: "Ultralight Cams",
+        href: "/projects/ultralight-cams",
       },
     },
     {
-      title: "Project2",
+      title: "Carabiners",
       techStack: [
         "TypeScript",
         "Next.js",
@@ -167,20 +167,50 @@ export const RESUME_DATA: ResumeData = {
         "Redis",
       ],
       description:
-        "Placeholder description for Project2. Use this space for the one-liner overview.",
+        "Placeholder description for Carabiners. Use this space for the one-liner overview.",
       link: {
-        label: "Project2",
-        href: "/projects/project2",
+        label: "Carabiners",
+        href: "/projects/carabiners",
       },
     },
     {
-      title: "Project3",
+      title: "Lamps",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description:
-        "Placeholder description for Project3. Add real details once the story is finalized.",
+        "Placeholder description for Lamps. Add real details once the story is finalized.",
       link: {
-        label: "Project3",
-        href: "/projects/project3",
+        label: "Lamps",
+        href: "/projects/lamps",
+      },
+    },
+    {
+      title: "Belay",
+      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      description:
+        "Placeholder description for Belay. Add real details once the story is finalized.",
+      link: {
+        label: "Belay",
+        href: "/projects/belay",
+      },
+    },
+    {
+      title: "X4 (quality)",
+      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      description:
+        "Placeholder description for X4 (quality). Add real details once the story is finalized.",
+      link: {
+        label: "X4 (quality)",
+        href: "/projects/x4-quality",
+      },
+    },
+    {
+      title: "Stinger",
+      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      description:
+        "Placeholder description for Stinger. Add real details once the story is finalized.",
+      link: {
+        label: "Stinger",
+        href: "/projects/stinger",
       },
     },
   ],
