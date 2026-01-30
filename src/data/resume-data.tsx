@@ -49,7 +49,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://blackdiamondequipment.com/",
       roles: [
         {
-          badges: ["CAD", "FEA"],
+          badges: ["Mentoring", "Hiring"],
           title: "Senior Design Engineer",
           start: "2023",
           end: "Present",
