@@ -49,7 +49,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://blackdiamondequipment.com/",
       roles: [
         {
-          badges: ["Mentoring", "Hiring"],
+          badges: ["Current"],
           title: "Senior Design Engineer",
           start: "2023",
           end: "Present",
@@ -73,7 +73,7 @@ export const RESUME_DATA: ResumeData = {
           ),
         },
         {
-          badges: ["Siemens NX", "ANSYS"],
+          badges: [],
           title: "Design Engineer",
           start: "2020",
           end: "2023",
@@ -92,7 +92,7 @@ export const RESUME_DATA: ResumeData = {
           ),
         },
         {
-          badges: ["LabView", "Pneumatic control"],
+          badges: [],
           title: "Quality Engineer",
           start: "2017",
           end: "2020",
@@ -117,7 +117,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://example.com",
       roles: [
         {
-          badges: ["Patent Writiring", "Patent Prosecution"],
+          badges: [],
           title: "Technical Consultant",
           start: "2018",
           end: "2020",
