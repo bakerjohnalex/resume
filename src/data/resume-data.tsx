@@ -5,11 +5,10 @@ export const RESUME_DATA: ResumeData = {
   initials: "AB",
   location: "Salt Lake City, UT",
   locationLink: "https://www.google.com/maps/place/saltlakecity",
-  about: "Design Engineer specializing in technical consumer products",
+  about: "I handle the technical implementation of hard to solve problems that address real user needs. This usually means 3D CAD, FEA, building building my own prototypes and maybe some Python. I thrive in extremely ambiguous environments.",
   summary: (
     <>
-      Design engineer with deep experience in creating technical designs
-      that look amazing. 
+      Design engineer that loves creating things. 
     </>
   ),
   avatarUrl: "/me.jpg",
@@ -58,11 +57,13 @@ export const RESUME_DATA: ResumeData = {
               Design engineering leader for the brand's most ambitious products.
               <ul className="list-inside list-disc">
                 <li>
-                  Building physical concept prototypes involving electronics integration into PPE hardgoods. Python, openVESC, Lisp, C, RF with bluetooth.
-                  Essentially arduino integration into hardgoods.
+                  Designing and building prototypes for the research arm of Black Diamond.
+                  Electronics integration into PPE hardgoods. 
+                  Python, openVESC, Lisp, C, RF with bluetooth.
+                  Essentially an experienced mechanical engineer powered by AI, Arduinos, and a professional machine shop .
                 </li>
                 <li>
-                  Design of two headlamps from concept to production. Responsible for all 3D CAD, from aesthetic surfaces to PCB layout. Desin for mass production
+                  Design of two headlamps from concept to production. Responsible for all 3D CAD, from aesthetic surfaces to PCB layout. Design for mass production
                   assembly, including complex injection mold layouts with multiple lifters and overmolds.
                 </li>
                 <li>
