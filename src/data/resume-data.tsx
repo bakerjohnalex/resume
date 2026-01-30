@@ -54,28 +54,28 @@ export const RESUME_DATA: ResumeData = {
         end: "Present",
         description: (
           <>
-            Lead design engineer for high-ambiguity, high-impact products from concept through production.
+            Lead design engineer for high-ambiguity, high-impact products.
             <ul className="list-inside list-disc">
               <li>
-                Designed and built prototypes for advanced R&amp;D programs, taking early concepts to production-intent
+                Designed and built prototypes for advanced R&amp;D programs, taking early concepts to validation
                 builds through rapid iteration.
               </li>
               <li>
-                Integrated electronics into safety-critical hardgoods (PPE), including electro-mechanical packaging,
-                environmental sealing, and RF/Bluetooth considerations.
+                Integrated electronics into safety-critical hardgoods (PPE). Including on-device measurement,
+                remote sensing, and RF.
               </li>
               <li>
                 Developed custom analysis and prototyping tools (Python + embedded platforms such as Arduino and
-                VESC-based motor control) to accelerate design validation and testing.
+                VESC-based motor control) to build physical working concepts extremely quickly.
               </li>
               <li>
                 Designed two headlamps from concept to production, owning 3D CAD from freeform/aesthetic surfaces
-                through mechanical architecture and DFM/DFA for mass production assembly, including complex injection
+                through mechanical architecture and DFM for mass production assembly, including complex injection
                 mold layouts with lifters, slides, and overmolds.
               </li>
               <li>
-                Taught freeform NURBS surfacing best practices across the engineering team, improving surface quality and
-                modeling consistency.
+                Taught freeform NURBS surfacing best practices across the engineering team, improving surface quality 
+                and easing integrating with the ID team.
               </li>
             </ul>
           </>
