@@ -36,9 +36,7 @@ export default function UltralightCamsPage() {
           Ultralight Cams
         </h1>
         <p className="max-w-2xl text-sm text-muted-foreground md:text-base">
-          A simple landing page to showcase the Ultralight Cams concept.
-          Replace this with a crisp one-liner that captures the work&apos;s core
-          value.
+          The backstory of the world's lightest cams.
         </p>
       </header>
 
@@ -72,10 +70,16 @@ export default function UltralightCamsPage() {
       >
         <h2 className="text-lg font-semibold">About this project</h2>
         <p className="mt-3 max-w-3xl text-sm text-muted-foreground md:text-base">
-          Add the detailed Ultralight Cams story here. Share the problem it
-          solves, the people it&apos;s built for, and what makes it special. Keep
-          this section flexible so you can add timelines, outcomes, or
-          additional media as the project evolves.
+          The core of this project was figuring out a way to use dyneema instead of 
+          steel for the core structural integrity of a cam. The idea is relatively 
+          simple, but executing on it was extremely difficult because no had figured 
+          out how assemble a cam with dyneema and keep the overall stiffness and 
+          durability of the steel variant. I invented a novel assembly method to create
+          a tensioned loop of dyneema that holds the entire cam together, but remains
+          internal and protected. This involved hand building dozens of prototype designs,
+          all of which required their own assembly methods with custom components and custom 
+          assembly tools. In the end, the design was patented and the assembly method remains 
+          a trade secret, over 10 years later. These remain the lightest full range cams ever built. 
         </p>
       </section>
     </main>
