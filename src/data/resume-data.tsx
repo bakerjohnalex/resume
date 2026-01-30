@@ -148,7 +148,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Ultralight Cams",
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
       description:
-        "Placeholder description for Ultralight Cams. Swap in the real summary when the project narrative is ready.",
+        "The world's lightest camming devices, 10 years running.",
       link: {
         label: "Ultralight Cams",
         href: "/projects/ultralight-cams",
@@ -167,7 +167,7 @@ export const RESUME_DATA: ResumeData = {
         "Redis",
       ],
       description:
-        "Placeholder description for Carabiners. Use this space for the one-liner overview.",
+        "An entire line of a carabiners, designed ground up and developed at a new factory",
       link: {
         label: "Carabiners",
         href: "/projects/carabiners",
@@ -177,7 +177,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Lamps",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description:
-        "Placeholder description for Lamps. Add real details once the story is finalized.",
+        "The most popular headlamps in the world",
       link: {
         label: "Lamps",
         href: "/projects/lamps",
@@ -187,7 +187,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Belay",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description:
-        "Placeholder description for Belay. Add real details once the story is finalized.",
+        "Ongoing design project, design for safety and ease of use at the same time",
       link: {
         label: "Belay",
         href: "/projects/belay",
@@ -197,7 +197,7 @@ export const RESUME_DATA: ResumeData = {
       title: "X4 (quality)",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description:
-        "Placeholder description for X4 (quality). Add real details once the story is finalized.",
+        "My first professional project. I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas",
       link: {
         label: "X4 (quality)",
         href: "/projects/x4-quality",
@@ -207,7 +207,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Stinger",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
       description:
-        "Placeholder description for Stinger. Add real details once the story is finalized.",
+        "An epic sheet metal project that hasn't made it to market (yet)",
       link: {
         label: "Stinger",
         href: "/projects/stinger",
