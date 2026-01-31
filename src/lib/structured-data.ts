@@ -53,17 +53,19 @@ export function generatePersonStructuredData() {
 }
 
 export function generateWebPageStructuredData() {
+  const resumeUrl = RESUME_DATA.personalWebsiteUrl;
+
   return {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    url: "https://cv.jarocki.me",
+    url: resumeUrl,
     inLanguage: "en-US",
     isPartOf: {
       "@type": "WebSite",
       name: `${RESUME_DATA.name}'s Professional Resume`,
-      url: "https://cv.jarocki.me",
+      url: resumeUrl,
     },
     about: {
       "@type": "Person",
@@ -74,6 +76,8 @@ export function generateWebPageStructuredData() {
 }
 
 export function generateResumeStructuredData() {
+  const resumeUrl = RESUME_DATA.personalWebsiteUrl;
+
   return {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
@@ -83,6 +87,6 @@ export function generateResumeStructuredData() {
     about: generatePersonStructuredData(),
     name: `${RESUME_DATA.name} - Professional Resume`,
     description: `Professional resume and portfolio of ${RESUME_DATA.name}, ${RESUME_DATA.about}`,
-    url: "https://cv.jarocki.me",
+    url: resumeUrl,
   };
 }
