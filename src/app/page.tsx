@@ -12,6 +12,8 @@ import { Skills } from "./components/Skills";
 import { Summary } from "./components/Summary";
 import { WorkExperience } from "./components/WorkExperience";
 
+const opengraphImageUrl = new URL("/opengraph-image", RESUME_DATA.personalWebsiteUrl).toString();
+
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
   description: RESUME_DATA.about,
@@ -22,7 +24,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://cv.jarocki.me/opengraph-image",
+        url: opengraphImageUrl,
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    images: ["https://cv.jarocki.me/opengraph-image"],
+    images: [opengraphImageUrl],
   },
 };
 

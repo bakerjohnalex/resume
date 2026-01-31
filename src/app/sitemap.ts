@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
+import { RESUME_DATA } from "@/data/resume-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://cv.jarocki.me";
+  const baseUrl = RESUME_DATA.personalWebsiteUrl;
 
   return [
     {
