@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "X4 (quality) - Selected Work",
-  description: "Landing page for the X4 (quality) selected work.",
-};
+import { x4QualityData } from "@/data/projects/x4-quality";
 
-const projectImages = [
-  {
-    src: "/me.jpg",
-    alt: "X4 (quality) preview image one",
-  },
-  {
-    src: "/me.jpg",
-    alt: "X4 (quality) preview image two",
-  },
-  {
-    src: "/me.jpg",
-    alt: "X4 (quality) preview image three",
-  },
-  {
-    src: "/me.jpg",
-    alt: "X4 (quality) preview image four",
-  },
-];
+export const metadata: Metadata = x4QualityData.metadata;
+
+const projectImages = x4QualityData.images;
 
 export default function X4QualityPage() {
   return (
@@ -33,11 +15,10 @@ export default function X4QualityPage() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          X4 (quality)
+          {x4QualityData.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          Placeholder copy for X4 (quality). Replace this sentence with a crisp,
-          benefit-driven one-liner when the story is ready.
+          {x4QualityData.summary}
         </p>
       </header>
 
@@ -70,11 +51,14 @@ export default function X4QualityPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the X4 (quality) background here. Note the audience, outcomes, and
-          the primary differentiator. This section is intentionally flexible so
-          it can grow with the project details.
-        </p>
+        {x4QualityData.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );

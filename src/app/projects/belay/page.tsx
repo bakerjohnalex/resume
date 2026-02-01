@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Belay - Selected Work",
-  description: "Landing page for the Belay selected work.",
-};
+import { belayData } from "@/data/projects/belay";
 
-const projectImages = [
-  {
-    src: "/me.jpg",
-    alt: "Belay preview image one",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Belay preview image two",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Belay preview image three",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Belay preview image four",
-  },
-];
+export const metadata: Metadata = belayData.metadata;
+
+const projectImages = belayData.images;
 
 export default function BelayPage() {
   return (
@@ -32,10 +14,11 @@ export default function BelayPage() {
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
           Selected Work
         </p>
-        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">Belay</h1>
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
+          {belayData.title}
+        </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          Placeholder copy for Belay. Replace this sentence with a crisp,
-          benefit-driven one-liner when the story is ready.
+          {belayData.summary}
         </p>
       </header>
 
@@ -68,11 +51,14 @@ export default function BelayPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the Belay background here. Note the audience, outcomes, and the
-          primary differentiator. This section is intentionally flexible so it
-          can grow with the project details.
-        </p>
+        {belayData.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );

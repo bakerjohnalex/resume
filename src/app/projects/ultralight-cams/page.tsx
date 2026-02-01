@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Ultralight Cams - Selected Work",
-  description: "Landing page for the Ultralight Cams selected work.",
-};
+import { ultralightCamsData } from "@/data/projects/ultralight-cams";
 
-const projectImages = [
-  {
-    src: "/ulcamrender.jpg",
-    alt: "Ultralight Cams preview image one",
-  },
-  {
-    src: "/ulcamfullset.jpg",
-    alt: "Ultralight Cams preview image two",
-  },
-  {
-    src: "/ulcam3.jpg",
-    alt: "Ultralight Cams preview image three",
-  },
-  {
-    src: "/ulcam4.jpg",
-    alt: "Ultralight Cams preview image four",
-  },
-];
+export const metadata: Metadata = ultralightCamsData.metadata;
+
+const projectImages = ultralightCamsData.images;
 
 export default function UltralightCamsPage() {
   return (
@@ -33,10 +15,10 @@ export default function UltralightCamsPage() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Ultralight Cams
+          {ultralightCamsData.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          The backstory of the world's lightest cams.
+          {ultralightCamsData.summary}
         </p>
       </header>
 
@@ -69,20 +51,14 @@ export default function UltralightCamsPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base leading-relaxed">
-          The core of this project was figuring out a way to use Dyneema instead
-          of steel for the core structural integrity of a cam. The idea is
-          relatively simple, but executing on it was extremely difficult because
-          no one had figured out how to assemble a cam with Dyneema and keep the
-          overall stiffness and durability of the steel variant. I invented a
-          novel assembly method to create a tensioned loop of Dyneema that
-          holds the entire cam together but remains internal and protected.
-          This involved hand-building dozens of prototype designs, all of which
-          required their own assembly methods with custom components and custom
-          assembly tools. In the end, the design was patented and the assembly
-          method remains a trade secret over 10 years later. These remain the
-          lightest full-range cams ever built.
-        </p>
+        {ultralightCamsData.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base leading-relaxed"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );
