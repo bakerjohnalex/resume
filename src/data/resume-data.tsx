@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Design engineer that loves creating things",
   summary: (
     <>
-      I own technical execution on hard-to-solve product problems, turning ambiguous needs into prototypes and production-ready designs. My toolkit includes 3D CAD, nonlinear FEA, hands-on prototyping, and AI for analysis and automation. I thrive when the problems are challenging 
+      I own technical execution on hard-to-solve product problems, turning ambiguous needs into prototypes and production-ready designs. My core toolkit includes solid modeling, nonlinear FEA, class A surfacing, and stong  hands-on prototyping skills.  I rely heaviily on AI for analysis and task automation. I thrive when the problems are challenging 
 and no step-by-step solution exists.
     </>
   ),
@@ -55,19 +55,12 @@ and no step-by-step solution exists.
         end: "Present",
         description: (
           <>
-            Lead design engineer for high-ambiguity, high-impact products.
+            Lead design engineer for the brands most ambitiuous projects.
             <ul className="list-inside list-disc">
               <li>
-                Designed and built prototypes for advanced R&amp;D programs, taking early concepts to validation
-                builds through rapid iteration.
-              </li>
-              <li>
-                Integrated electronics into safety-critical hardgoods (PPE). Including on-device measurement,
-                remote sensing, and RF.
-              </li>
-              <li>
-                Developed custom analysis and prototyping tools (Python + embedded platforms such as Arduino and
-                VESC-based motor control) to build physical working concepts extremely quickly.
+                Designed and built physical product prototypes for advanced R&amp;D programs, taking early concepts to validation
+                through rapid iteration. Integrated electronics into safety-critical hardgoods (PPE), including on-device measurement,
+                remote sensing, and RF. Owned everything from solid modeling to programming to building.
               </li>
               <li>
                 Designed two headlamps from concept to production, owning 3D CAD from freeform/aesthetic surfaces
