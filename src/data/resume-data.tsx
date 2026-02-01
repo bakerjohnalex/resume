@@ -82,13 +82,16 @@ and no step-by-step solution exists.
         end: "2019",
         description: (
           <>
-            Designed and shipped products across multiple categories, from early concepts through production ramp.
+            Designed and shipped hardgoods products across multiple categories, all from early concept to production.
             <ul className="list-inside list-disc">
               <li>
-                Contributed to multiple successful product launches with meaningful impact on revenue and margin.
+                Lead design engineer for multiple successful product launches with meaningful impact on revenue and margin. This includes cams, carabiners, stoppers, buckles, probes, a very particular fan, ice accessories, crampons, personal anchor systems and more.
               </li>
               <li>
-                Named inventor on multiple granted patents for innovations across diverse hardware categories.
+                Named inventor on multiple granted patents for innovations across multiple hardware categories.
+              </li>
+              <li>
+                Developed long term relationships with many vendors and suppliers via on site collaboration domestically and abroad. 
               </li>
             </ul>
           </>
