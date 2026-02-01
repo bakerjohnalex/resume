@@ -1,33 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Lamps - Selected Work",
-  description: "Landing page for the Lamps selected work.",
-};
+import { project3Data } from "@/data/projects/project3";
 
-const projectImages = [
-  {
-    src: "/me.jpg",
-    alt: "Lamps preview image one",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Lamps preview image two",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Lamps preview image three",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Lamps preview image four",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Project3 preview image four",
-  },
-];
+export const metadata: Metadata = project3Data.metadata;
+
+const projectImages = project3Data.images;
 
 export default function Project3Page() {
   return (
@@ -37,11 +15,10 @@ export default function Project3Page() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Lamps
+          {project3Data.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          Placeholder copy for Lamps. Use this space for a short, friendly
-          summary that sets the tone for the work.
+          {project3Data.summary}
         </p>
       </header>
 
@@ -74,10 +51,14 @@ export default function Project3Page() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the Lamps details here. Highlight the goals, the feature set, and
-          any milestones you want to track as the work evolves.
-        </p>
+        {project3Data.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );

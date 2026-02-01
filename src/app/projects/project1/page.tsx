@@ -1,33 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Ultralight Cams - Selected Work",
-  description: "Landing page for the Ultralight Cams selected work.",
-};
+import { project1Data } from "@/data/projects/project1";
 
-const projectImages = [
-  {
-    src: "/ulcamrender.jpg",
-    alt: "Ultralight Cams preview image one",
-  },
-  {
-    src: "/ulcamfullset.jpg",
-    alt: "Ultralight Cams preview image two",
-  },
-  {
-    src: "/ulcamused.jpg",
-    alt: "Ultralight Cams preview image three",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Ultralight Cams preview image four",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Project1 preview image four",
-  },
-];
+export const metadata: Metadata = project1Data.metadata;
+
+const projectImages = project1Data.images;
 
 export default function Project1Page() {
   return (
@@ -37,12 +15,10 @@ export default function Project1Page() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Ultralight Cams
+          {project1Data.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          A simple landing page to showcase the Ultralight Cams concept.
-          Replace this with a crisp one-liner that captures the work&apos;s core
-          value.
+          {project1Data.summary}
         </p>
       </header>
 
@@ -75,12 +51,14 @@ export default function Project1Page() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the detailed Ultralight Cams story here. Share the problem it
-          solves, the people it&apos;s built for, and what makes it special. Keep
-          this section flexible so you can add timelines, outcomes, or
-          additional media as the project evolves.
-        </p>
+        {project1Data.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );

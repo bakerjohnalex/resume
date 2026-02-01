@@ -1,29 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Stinger - Selected Work",
-  description: "Landing page for the Stinger selected work.",
-};
+import { stingerData } from "@/data/projects/stinger";
 
-const projectImages = [
-  {
-    src: "/me.jpg",
-    alt: "Stinger preview image one",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Stinger preview image two",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Stinger preview image three",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Stinger preview image four",
-  },
-];
+export const metadata: Metadata = stingerData.metadata;
+
+const projectImages = stingerData.images;
 
 export default function StingerPage() {
   return (
@@ -33,11 +15,10 @@ export default function StingerPage() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Stinger
+          {stingerData.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          Placeholder copy for Stinger. Replace this sentence with a crisp,
-          benefit-driven one-liner when the story is ready.
+          {stingerData.summary}
         </p>
       </header>
 
@@ -70,11 +51,14 @@ export default function StingerPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the Stinger background here. Note the audience, outcomes, and the
-          primary differentiator. This section is intentionally flexible so it
-          can grow with the project details.
-        </p>
+        {stingerData.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );
