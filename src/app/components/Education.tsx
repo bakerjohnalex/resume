@@ -85,7 +85,7 @@ export function Education({ education, highlights }: EducationListProps) {
           </article>
         ))}
         {highlights && highlights.length > 0 ? (
-          <ul className="list-inside list-disc text-foreground/80 print:text-[12px]">
+          <ul className="ml-4 list-disc space-y-1 text-pretty font-mono text-xs text-foreground/80 print:text-[10px]">
             {highlights.map((highlight) => (
               <li key={highlight}>{highlight}</li>
             ))}
