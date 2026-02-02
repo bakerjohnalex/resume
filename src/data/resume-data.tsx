@@ -149,7 +149,7 @@ export const RESUME_DATA: ResumeData = {
     "ANSYS",
     "OpenAI Codex",
     "TensorFlow",
-    "Arduino Robotics"
+    "Arduino",
     "Forging",
     "CNC",
     "Injection Molding",
