@@ -57,8 +57,8 @@ export default function CarabinersPage() {
             <p key={paragraph}>{paragraph}</p>
           ))}
 
-          {carabinersData.sections.map((section) => (
-            <div key={section.title ?? section.paragraphs[0]} className="space-y-4">
+          {carabinersData.sections.map((section, index) => (
+            <div key={`${section.title}-${index}`} className="space-y-4">
               {section.title ? (
                 <p className="font-semibold text-foreground">{section.title}</p>
               ) : null}

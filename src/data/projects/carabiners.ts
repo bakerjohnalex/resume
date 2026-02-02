@@ -52,6 +52,7 @@ export const carabinersData = {
       ],
     },
     {
+      title: "",
       paragraphs: [
         "I didn't expect to write that much about carabiner design. If you read this and found it useful, enjoyed it, or want to argue about my surfacing core values, please reach out.",
       ],
