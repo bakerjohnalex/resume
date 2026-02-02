@@ -199,31 +199,19 @@ export const RESUME_DATA: ResumeData = {
       title: "Belay",
       techStack: ["Forging", "CNC", "MIM","Rope Dynamics", "Motion Analysis"],
       description:
-        "Ongoing design project, design for safety and ease of use at the same time",
-      link: {
-        label: "Belay",
-        href: "/projects/belay",
-      },
+        "Ongoing design project, design for safety and ease of use at the same time. Coming soon.",
     },
     {
       title: "X4 ",
       techStack: ["PPE", "Product Certification", "PLC Programming", "Statistical QC", "Extreme Ownership"],
       description:
-        "I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas",
-      link: {
-        label: "X4 (quality)",
-        href: "/projects/x4-quality",
-      },
+        "I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas. Coming soon.",
     },
     {
       title: "Stinger",
       techStack: ["Sheet Metal", "Injection Molding", "Steel Coating","Heat Treating"],
       description:
-        "An epic sheet metal project that hasn't made it to market (yet)",
-      link: {
-        label: "Stinger",
-        href: "/projects/stinger",
-      },
+        "An epic sheet metal project that hasn't made it to market (yet). Coming soon.",
     },
   ],
 } as const;
