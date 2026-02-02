@@ -5,7 +5,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "AB",
   location: "Salt Lake City, UT",
   locationLink: "https://www.google.com/maps/place/saltlakecity",
-  about: "Design engineer that loves creating things. Ctrl+j if you'd like to print this as pdf.",
+  about: "Design engineer that loves creating things.\nCtrl+j to print this as pdf.",
   summary: (
     <>
       I own technical execution on hard-to-solve product problems, turning ambiguous needs into prototypes and production-ready designs. My core toolkit includes solid modeling, nonlinear FEA, Class A surfacing, and strong hands-on prototyping skills. I rely heavily on AI for analysis and task automation. I thrive when the problems are challenging and no step-by-step solution exists.
