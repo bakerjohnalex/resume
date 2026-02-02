@@ -39,7 +39,7 @@ export const RESUME_DATA: ResumeData = {
       school: "Portland State University",
       degree: "MS and BS in Mechanical Engineering",
       start: "2003",
-      end: "2011",
+      end: "2010",
     },
   ],
   educationHighlights: [
@@ -130,8 +130,8 @@ export const RESUME_DATA: ResumeData = {
       {
         badges: [],
         title: "Technical Consultant",
-        start: "2018",
-        end: "2020",
+        start: "2010",
+        end: "2011",
         description: (
           <>
             Drafted and prosecuted patents as a technical consultant, translating engineering concepts into clear,
@@ -198,10 +198,10 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "X4 (quality)",
+      title: "X4 ",
       techStack: ["PPE", "Product Certification", "PLC Programming", "Statistical QC", "Extreme Ownership"],
       description:
-        "My first professional project. I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas",
+        "I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas",
       link: {
         label: "X4 (quality)",
         href: "/projects/x4-quality",
