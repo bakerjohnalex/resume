@@ -5,7 +5,7 @@ export const carabinersData = {
   },
   title: "Carabiners",
   summary:
-    "Placeholder copy for Carabiners. Replace this sentence with a crisp, benefit-driven one-liner when the story is ready.",
+    "A longer than expected collection of thoughts on carabiners",
   images: [
     {
       src: "/biner1.jpg",
