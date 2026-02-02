@@ -20,7 +20,7 @@ export const lampsData = {
       alt: "Lamps preview image three",
     },
     {
-      src: "/me.jpg",
+      src: "/lamp4.jpg",
       alt: "Lamps preview image four",
     },
   ],
