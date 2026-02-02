@@ -9,15 +9,10 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-  CommandSeparator,
 } from "@/components/ui/command";
 import { Button } from "./ui/button";
 
-interface Props {
-  links: { url: string; title: string }[];
-}
-
-export const CommandMenu = ({ links }: Props) => {
+export const CommandMenu = () => {
   const [open, setOpen] = React.useState(false);
   const isMac: boolean =
     typeof window !== "undefined"
@@ -43,7 +38,7 @@ export const CommandMenu = ({ links }: Props) => {
         <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
           <span className="text-xs">{isMac ? "⌘" : "Ctrl"}</span>+J
         </kbd>{" "}
-        to open the command menu
+        to print as PDF
       </p>
       <Button
         onClick={() => setOpen((open) => !open)}
@@ -64,23 +59,9 @@ export const CommandMenu = ({ links }: Props) => {
                 window.print();
               }}
             >
-              <span>Print</span>
+              <span>Print as PDF</span>
             </CommandItem>
           </CommandGroup>
-          <CommandGroup heading="Links">
-            {links.map(({ url, title }) => (
-              <CommandItem
-                key={url}
-                onSelect={() => {
-                  setOpen(false);
-                  window.open(url, "_blank");
-                }}
-              >
-                <span>{title}</span>
-              </CommandItem>
-            ))}
-          </CommandGroup>
-          <CommandSeparator />
         </CommandList>
       </CommandDialog>
     </>
