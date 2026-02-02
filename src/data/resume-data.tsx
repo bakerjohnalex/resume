@@ -8,8 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Design engineer that loves creating things",
   summary: (
     <>
-      I own technical execution on hard-to-solve product problems, turning ambiguous needs into prototypes and production-ready designs. My core toolkit includes solid modeling, nonlinear FEA, class A surfacing, and stong  hands-on prototyping skills.  I rely heaviily on AI for analysis and task automation. I thrive when the problems are challenging 
-and no step-by-step solution exists.
+      I own technical execution on hard-to-solve product problems, turning ambiguous needs into prototypes and production-ready designs. My core toolkit includes solid modeling, nonlinear FEA, Class A surfacing, and strong hands-on prototyping skills. I rely heavily on AI for analysis and task automation. I thrive when the problems are challenging and no step-by-step solution exists.
     </>
   ),
   avatarUrl: "/me.jpg",
@@ -43,6 +42,10 @@ and no step-by-step solution exists.
       end: "2011",
     },
   ],
+  educationHighlights: [
+    "Applied for (and won) opportunity to fly an experiment on NASA's low-G 'vomit comet' airplane.",
+    "Wrote image analysis code in MATLAB to help pay for school.",
+  ],
   work: [
   {
     company: "Black Diamond Equipment",
@@ -55,7 +58,7 @@ and no step-by-step solution exists.
         end: "Present",
         description: (
           <>
-            Lead design engineer for the brands most ambitiuous projects.
+            Lead design engineer for the brand's most ambitious projects.
             <ul className="list-inside list-disc">
               <li>
                 Designed and built physical product prototypes for advanced R&amp;D programs, taking early concepts to validation
@@ -68,8 +71,8 @@ and no step-by-step solution exists.
                 mold layouts with lifters, slides, and overmolds.
               </li>
               <li>
-                Taught freeform NURBS surfacing best practices across the engineering team, improving surface quality 
-                and easing integrating with the ID team.
+                Taught freeform NURBS surfacing best practices across the engineering team, improving surface quality
+                and easing integration with the ID team.
               </li>
             </ul>
           </>
@@ -91,7 +94,7 @@ and no step-by-step solution exists.
                 Named inventor on multiple granted patents for innovations across multiple hardware categories.
               </li>
               <li>
-                Developed long term relationships with many vendors and suppliers via on site collaboration domestically and abroad. 
+                Developed long-term relationships with many vendors and suppliers via on-site collaboration domestically and abroad.
               </li>
             </ul>
           </>
@@ -142,7 +145,7 @@ and no step-by-step solution exists.
 
   skills: [
     "Siemens NX",
-    "Non Linear FEA",
+    "Nonlinear FEA",
     "ANSYS",
     "OpenAI Codex",
     "TensorFlow",
@@ -168,7 +171,7 @@ and no step-by-step solution exists.
         "Material Sourcing",
       ],
       description:
-        "An entire line of a carabiners, designed ground up and developed at a new factory",
+        "An entire line of carabiners, designed from the ground up and developed at a new factory",
       link: {
         label: "Carabiners",
         href: "/projects/carabiners",
@@ -196,7 +199,7 @@ and no step-by-step solution exists.
     },
     {
       title: "X4 (quality)",
-      techStack: ["PPE", "Product Certification", "PLC Programming","Statistical QC","Extreme Ownnership"],
+      techStack: ["PPE", "Product Certification", "PLC Programming", "Statistical QC", "Extreme Ownership"],
       description:
         "My first professional project. I was responsible for the quality of a new PPE product being developed at a new company-owned factory overseas",
       link: {
