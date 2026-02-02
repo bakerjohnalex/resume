@@ -106,7 +106,10 @@ export default function ResumePage() {
 
             <SectionErrorBoundary sectionName="Education">
               <Suspense fallback={<SectionSkeleton lines={3} />}>
-                <Education education={RESUME_DATA.education} />
+                <Education
+                  education={RESUME_DATA.education}
+                  highlights={RESUME_DATA.educationHighlights}
+                />
               </Suspense>
             </SectionErrorBoundary>
 

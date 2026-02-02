@@ -61,13 +61,14 @@ function EducationItem({ education }: EducationItemProps) {
 
 interface EducationListProps {
   education: readonly Education[];
+  highlights?: readonly string[];
 }
 
 /**
  * Main education section component
  * Renders a list of education experiences
  */
-export function Education({ education }: EducationListProps) {
+export function Education({ education, highlights }: EducationListProps) {
   return (
     <Section>
       <h2 className="text-xl font-bold" id="education-section">
@@ -83,6 +84,13 @@ export function Education({ education }: EducationListProps) {
             <EducationItem education={item} />
           </article>
         ))}
+        {highlights && highlights.length > 0 ? (
+          <ul className="list-inside list-disc text-foreground/80 print:text-[12px]">
+            {highlights.map((highlight) => (
+              <li key={highlight}>{highlight}</li>
+            ))}
+          </ul>
+        ) : null}
       </div>
     </Section>
   );

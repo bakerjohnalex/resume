@@ -28,6 +28,7 @@ export interface ResumeData {
     start: string;
     end: string;
   }>;
+  educationHighlights?: string[];
   work: Array<{
     company: string;
     link: string;
