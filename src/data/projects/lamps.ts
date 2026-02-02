@@ -8,15 +8,15 @@ export const lampsData = {
     "The Cosmo and Spot are two of the most popular headlamps in the world. I designed the latest iteration in Spring 2024.",
   images: [
     {
-      src: "/me.jpg",
+      src: "/lamp1.jpg",
       alt: "Lamps preview image one",
     },
     {
-      src: "/me.jpg",
+      src: "/lamp2.jpg",
       alt: "Lamps preview image two",
     },
     {
-      src: "/me.jpg",
+      src: "/lamp3.jpg",
       alt: "Lamps preview image three",
     },
     {
