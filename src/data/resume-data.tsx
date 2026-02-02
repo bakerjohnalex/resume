@@ -135,7 +135,8 @@ export const RESUME_DATA: ResumeData = {
         description: (
           <>
             Drafted and prosecuted patents as a technical consultant, translating engineering concepts into clear,
-            defensible claims.
+            defensible claims. I continue to use these skills today, consulting with internal teams and negotiating
+            externally on patent related matters.
           </>
         ),
       },
