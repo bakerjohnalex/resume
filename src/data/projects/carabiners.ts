@@ -8,19 +8,19 @@ export const carabinersData = {
     "Placeholder copy for Carabiners. Replace this sentence with a crisp, benefit-driven one-liner when the story is ready.",
   images: [
     {
-      src: "/me.jpg",
+      src: "/biner1.jpg",
       alt: "Carabiners preview image one",
     },
     {
-      src: "/me.jpg",
+      src: "/biner2.jpg",
       alt: "Carabiners preview image two",
     },
     {
-      src: "/me.jpg",
+      src: "/biner2.jpg",
       alt: "Carabiners preview image three",
     },
     {
-      src: "/me.jpg",
+      src: "/biner4.jpg",
       alt: "Carabiners preview image four",
     },
   ],
