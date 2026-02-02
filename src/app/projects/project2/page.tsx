@@ -1,33 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Carabiners - Selected Work",
-  description: "Landing page for the Carabiners selected work.",
-};
+import { project2Data } from "@/data/projects/project2";
 
-const projectImages = [
-  {
-    src: "/me.jpg",
-    alt: "Carabiners preview image one",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Carabiners preview image two",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Carabiners preview image three",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Carabiners preview image four",
-  },
-  {
-    src: "/me.jpg",
-    alt: "Project2 preview image four",
-  },
-];
+export const metadata: Metadata = project2Data.metadata;
+
+const projectImages = project2Data.images;
 
 export default function Project2Page() {
   return (
@@ -37,11 +15,10 @@ export default function Project2Page() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Carabiners
+          {project2Data.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          Placeholder copy for Carabiners. Replace this sentence with a crisp,
-          benefit-driven one-liner when the story is ready.
+          {project2Data.summary}
         </p>
       </header>
 
@@ -74,11 +51,14 @@ export default function Project2Page() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        <p className="mt-3 text-sm text-muted-foreground md:text-base">
-          Add the Carabiners background here. Note the audience, outcomes, and
-          the primary differentiator. This section is intentionally flexible so
-          it can grow with the project details.
-        </p>
+        {project2Data.about.map((paragraph) => (
+          <p
+            key={paragraph}
+            className="mt-3 text-sm text-muted-foreground md:text-base"
+          >
+            {paragraph}
+          </p>
+        ))}
       </section>
     </main>
   );
