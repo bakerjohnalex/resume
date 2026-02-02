@@ -16,7 +16,7 @@ export const carabinersData = {
       alt: "Carabiners preview image two",
     },
     {
-      src: "/biner2.jpg",
+      src: "/biner3.jpg",
       alt: "Carabiners preview image three",
     },
     {
