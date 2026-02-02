@@ -12,7 +12,7 @@ export const RESUME_DATA: ResumeData = {
     </>
   ),
   avatarUrl: "/me.jpg",
-  personalWebsiteUrl: "https://google.com",
+  personalWebsiteUrl: "https://alexbaker.info",
   contact: {
     email: "bakerjohnalex@gmail.com",
     tel: "605.390.3739",
@@ -24,7 +24,7 @@ export const RESUME_DATA: ResumeData = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/alex-baker-100",
+        url: "https://www.linkedin.com/in/alex-baker-100",
         icon: "linkedin",
       },
       {
