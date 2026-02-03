@@ -5,7 +5,7 @@ export const belayData = {
   },
   title: "Current",
   summary:
-    "We have had an ongoing project at BD for nearly 20 years, and I am currently working at the leading edge of its development.",
+    "We have had an ongoing project at BD for nearly 20 years, and I am currently working at the leading edge of its development. Below is a high-level overview of the project and my specific contributions.",
   images: [
     {
       src: "/me.jpg",
@@ -25,7 +25,7 @@ export const belayData = {
     },
   ],
   about: [
-    "We have had an ongoing project at BD for nearly 20 years, and I am currently working at the leading edge of its development. Below is a high-level overview of the project and my specific contributions.",
+    
     "RF Communication",
     "The core requirement was reliable, low-power wireless communication between two devices in outdoor environments. Key constraints included extremely low power consumption, very low data rates, and high reliability. Operating distances were short (under 100 m). Latency was important, though delays on the order of a few milliseconds were acceptable.",
     "Standard Bluetooth performed adequately in controlled environments such as my garage, where much of the early engineering work took place, but proved unreliable in electrically noisy environments like climbing gyms. After evaluating several options, I ultimately selected a Bluetooth 5–based solution using a specific chipset. While this approach was close to the edge of acceptable performance, it proved sufficiently reliable to support a robust prototype and allow continued development.",
