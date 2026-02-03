@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/projects/belay`,
+      url: `${baseUrl}/projects/current`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,

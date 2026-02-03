@@ -1,4 +1,4 @@
-export const belayData = {
+export const currentData = {
   metadata: {
     title: "Current - Selected Work",
     description: "Landing page for the Current selected work.",
@@ -8,15 +8,15 @@ export const belayData = {
     "We have had an ongoing project at BD for nearly 20 years, and I am currently working at the leading edge of its development. Below is a high-level overview of the project and my specific contributions.",
   images: [
     {
-      src: "/belay1.jpeg",
+      src: "/current1.jpeg",
       alt: "Current preview image one",
     },
     {
-      src: "/belay2.jpeg",
+      src: "/current2.jpeg",
       alt: "Current preview image two",
     },
     {
-      src: "/belay3.jpeg",
+      src: "/current3.jpeg",
       alt: "Current preview image three",
     },
     {

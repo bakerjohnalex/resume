@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
-import { belayData } from "@/data/projects/belay";
+import { currentData } from "@/data/projects/current";
 
-export const metadata: Metadata = belayData.metadata;
+export const metadata: Metadata = currentData.metadata;
 
-const projectImages = belayData.images;
+const projectImages = currentData.images;
 
-export default function BelayPage() {
+export default function CurrentPage() {
   return (
     <main className="container mx-auto flex min-h-screen flex-col gap-10 p-4 md:p-12">
       <header className="space-y-3">
@@ -15,10 +15,10 @@ export default function BelayPage() {
           Selected Work
         </p>
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          {belayData.title}
+          {currentData.title}
         </h1>
         <p className="text-sm text-muted-foreground md:text-base">
-          {belayData.summary}
+          {currentData.summary}
         </p>
       </header>
 
@@ -51,7 +51,7 @@ export default function BelayPage() {
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>
-        {belayData.about.map((paragraph) => (
+        {currentData.about.map((paragraph) => (
           <p
             key={paragraph}
             className="mt-3 text-sm text-muted-foreground md:text-base"
