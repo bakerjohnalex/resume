@@ -202,7 +202,7 @@ export const RESUME_DATA: ResumeData = {
         "Ongoing BD project focused on safety, reliability, and ease of use.",
       link: {
         label: "Current",
-        href: "/projects/belay",
+        href: "/projects/current",
       },
     },
     {
