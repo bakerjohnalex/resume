@@ -8,15 +8,15 @@ export const belayData = {
     "We have had an ongoing project at BD for nearly 20 years, and I am currently working at the leading edge of its development. Below is a high-level overview of the project and my specific contributions.",
   images: [
     {
-      src: "/me.jpg",
+      src: "/belay1.jpg",
       alt: "Current preview image one",
     },
     {
-      src: "/me.jpg",
+      src: "/belay2.jpg",
       alt: "Current preview image two",
     },
     {
-      src: "/me.jpg",
+      src: "/belay3.jpg",
       alt: "Current preview image three",
     },
     {
