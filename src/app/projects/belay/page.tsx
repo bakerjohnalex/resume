@@ -22,7 +22,7 @@ export default function BelayPage() {
         </p>
       </header>
 
-      <section aria-label="Belay preview images" className="space-y-4">
+      <section aria-label="Current preview images" className="space-y-4">
         <h2 className="text-lg font-semibold">Project snapshots</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {projectImages.map((image, index) => (
@@ -47,7 +47,7 @@ export default function BelayPage() {
       </section>
 
       <section
-        aria-label="Belay description"
+        aria-label="Current description"
         className="rounded-2xl border bg-card p-6 shadow-sm"
       >
         <h2 className="text-lg font-semibold">About this project</h2>

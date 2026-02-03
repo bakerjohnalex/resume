@@ -196,10 +196,14 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "Belay",
+      title: "Current",
       techStack: ["Forging", "CNC", "MIM","Rope Dynamics", "Motion Analysis"],
       description:
-        "Ongoing design project, design for safety and ease of use at the same time. Coming soon.",
+        "Ongoing BD project focused on safety, reliability, and ease of use.",
+      link: {
+        label: "Current",
+        href: "/projects/belay",
+      },
     },
     {
       title: "X4 ",
