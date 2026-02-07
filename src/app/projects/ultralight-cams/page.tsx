@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { ArrowUpRight, FileText, PlayCircle } from "lucide-react";
 
 import { ultralightCamsData } from "@/data/projects/ultralight-cams";
 
 export const metadata: Metadata = ultralightCamsData.metadata;
 
 const projectImages = ultralightCamsData.images;
+const projectLinks = ultralightCamsData.links;
+
+const linkIconMap = {
+  patent: FileText,
+  video: PlayCircle,
+} as const;
 
 export default function UltralightCamsPage() {
   return (
@@ -59,6 +66,39 @@ export default function UltralightCamsPage() {
             {paragraph}
           </p>
         ))}
+      </section>
+
+      <section aria-label="Ultralight Cams links" className="space-y-4">
+        <h2 className="text-lg font-semibold">Related links</h2>
+        <div className="grid gap-4 md:grid-cols-2">
+          {projectLinks.map((link) => {
+            const Icon = linkIconMap[link.icon];
+
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                className="group flex items-center gap-4 rounded-2xl border bg-card p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-foreground/20 hover:shadow-md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-muted text-foreground transition group-hover:scale-105">
+                  <Icon className="h-5 w-5" aria-hidden="true" />
+                </span>
+                <span className="flex flex-1 flex-col gap-1">
+                  <span className="text-sm font-semibold">{link.title}</span>
+                  <span className="text-sm text-muted-foreground">
+                    {link.description}
+                  </span>
+                </span>
+                <ArrowUpRight
+                  className="h-4 w-4 text-muted-foreground transition group-hover:text-foreground"
+                  aria-hidden="true"
+                />
+              </a>
+            );
+          })}
+        </div>
       </section>
     </main>
   );
