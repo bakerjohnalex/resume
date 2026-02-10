@@ -215,7 +215,11 @@ export const RESUME_DATA: ResumeData = {
       title: "Stinger",
       techStack: ["Sheet Metal", "Injection Molding", "Steel Coating","Heat Treating"],
       description:
-        "An epic sheet metal project that hasn't made it to market (yet). Coming soon.",
+        "An open crampon design project spanning sheet metal, molding, metallurgy, and coatings.",
+      link: {
+        label: "Stinger",
+        href: "/projects/stinger",
+      },
     },
   ],
 } as const;
