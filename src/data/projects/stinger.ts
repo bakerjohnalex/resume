@@ -12,7 +12,7 @@ export const stingerData = {
       alt: "Stinger preview image one",
     },
     {
-      src: "/me.jpg",
+      src: "/stinger2.jpg",
       alt: "Stinger preview image two",
     },
     {
