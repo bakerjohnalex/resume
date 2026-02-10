@@ -8,7 +8,7 @@ export const stingerData = {
     "The Stinger is an open crampon design project that I helped drive from prototype development through factory execution.",
   images: [
     {
-      src: "/me.jpg",
+      src: "/stinger1.jpg",
       alt: "Stinger preview image one",
     },
     {
