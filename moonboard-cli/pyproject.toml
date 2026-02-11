@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moonboard-cli"
+version = "0.1.0"
+description = "Moonboard calibration, pose extraction, analysis, and rendering CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "opencv-python",
+  "pillow",
+  "imageio",
+  "mediapipe==0.10.14",
+]
+
+[project.optional-dependencies]
+replicate = ["replicate"]
+
+[project.scripts]
+moonboard = "moonboard.cli:main"
+
+[tool.setuptools]
+packages = ["moonboard"]

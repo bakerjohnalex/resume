@@ -1,0 +1,14 @@
+runs/*
+!runs/.gitkeep
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.DS_Store
