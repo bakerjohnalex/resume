@@ -8,9 +8,10 @@ export const RESUME_DATA: ResumeData = {
   about: "Design engineer that loves creating things.",
   summary: (
     <>
-      I'm an experienced mechanical design engineer with a diverse skill set.  
-      My core toolkit includes solid modeling, FEA, Class A surfacing, and strong hands-on prototyping skills. 
-      I have a strong math and analysis background, and I'm up to date on the modern coding tools.
+      I'm an experienced mechanical design engineer with a diverse skill set. My
+      core toolkit includes solid modeling, FEA, Class A surfacing, and strong
+      hands-on prototyping skills. I have a strong math and analysis background,
+      and I'm up to date on the modern coding tools.
     </>
   ),
   avatarUrl: "/me.jpg",
@@ -224,6 +225,22 @@ export const RESUME_DATA: ResumeData = {
       link: {
         label: "Current",
         href: "/projects/current",
+      },
+    },
+    {
+      title: "Quantitative Puzzles",
+      techStack: [
+        "Probability",
+        "Combinatorics",
+        "Python",
+        "Calculus",
+        "Ambiguity",
+      ],
+      description:
+        "A set of completed Jane Street monthly puzzle solutions, from pure ambiguity to heavy math and simulation.",
+      link: {
+        label: "Quantitative Puzzles",
+        href: "/projects/quantitative-puzzles",
       },
     },
     {
