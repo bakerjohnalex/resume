@@ -234,6 +234,10 @@ export const RESUME_DATA: ResumeData = {
       techStack: ["Codex", "tailwind", "react"],
       description:
         "I built this website from scratch using Codex and a public template github repository from Bartosz Jarocki. Cheaper and better than Square Space, for sure.",
+      link: {
+        label: "GitHub Repo",
+        href: "https://github.com/bakerjohnalex/resume",
+      },
     },
     {
       title: "Stinger",
