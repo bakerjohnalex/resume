@@ -45,6 +45,7 @@ export const RESUME_DATA: ResumeData = {
   educationHighlights: [
     "Applied for (and won) opportunity to fly an experiment on NASA's low-G 'vomit comet' airplane.",
     "Wrote image analysis code in MATLAB to help pay for school.",
+    "Wrote a thesis on approximate solutions to partial differential equations with several real, experiment verified examples.",
   ],
   work: [
   {
