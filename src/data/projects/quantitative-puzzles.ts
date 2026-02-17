@@ -1,3 +1,13 @@
+type QuantitativePuzzle = {
+  title: string;
+  href: string;
+  description: string;
+  extraLink?: {
+    title: string;
+    href: string;
+  };
+};
+
 export const quantitativePuzzlesData = {
   metadata: {
     title: "Quantitative Puzzles - Selected Work",
@@ -52,5 +62,5 @@ export const quantitativePuzzlesData = {
       description:
         "This is more or less a super sudoku, but with an interesting twist that led to using an image analysis tool (cv2 blob tool) to evaluate final solutions. Done completely in python.",
     },
-  ],
+  ] as QuantitativePuzzle[],
 } as const;
