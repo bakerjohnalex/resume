@@ -8,12 +8,9 @@ export const RESUME_DATA: ResumeData = {
   about: "Design engineer that loves creating things.",
   summary: (
     <>
-      I own technical execution on hard-to-solve product problems, turning
-      ambiguous needs into prototypes and production-ready designs. My core
-      toolkit includes solid modeling, nonlinear FEA, Class A surfacing, and
-      strong hands-on prototyping skills. I rely heavily on AI for analysis and
-      task automation. I thrive when the problems are challenging and no
-      step-by-step solution exists.
+      I'm an experienced mechanical design engineer with a diverse skill set.  
+      My core toolkit includes solid modeling, FEA, Class A surfacing, and strong hands-on prototyping skills. 
+      I have a strong math and analysis background, and I'm up to date on the modern coding tools.
     </>
   ),
   avatarUrl: "/me.jpg",
