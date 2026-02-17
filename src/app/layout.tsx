@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [{ url: "/icon.svg" }],
     shortcut: ["/icon.svg"],
-    apple: [{ url: "/apple-icon.png" }],
+    apple: [{ url: "/apple-icon.svg" }],
   },
   alternates: {
     canonical: RESUME_DATA.personalWebsiteUrl,
