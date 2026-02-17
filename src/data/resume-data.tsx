@@ -9,7 +9,7 @@ export const RESUME_DATA: ResumeData = {
   summary: (
     <>
       I'm an experienced mechanical design engineer with a diverse skill set. My
-      core toolkit includes solid modeling, FEA, Class A surfacing, and strong
+      core toolkit includes solid modeling (NX), FEA (Ansys), Class A surfacing, and strong
       hands-on prototyping skills. I have a strong math and analysis background,
       and I'm up to date on the modern coding tools.
     </>
