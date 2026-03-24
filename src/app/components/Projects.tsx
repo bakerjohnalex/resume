@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "../../components/ui/badge";
 import {
   Card,
@@ -137,6 +136,12 @@ export function Projects({
     <Section className="scroll-mb-16 print:space-y-4">
       <h2 className="text-xl font-bold" id="selected-works">
         Selected Works
+        <a
+          href="https://alexbaker.info"
+          className="ml-2 hidden text-xs font-normal text-muted-foreground underline print:inline"
+        >
+          (view at alexbaker.info)
+        </a>
       </h2>
       <div
         className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2"
